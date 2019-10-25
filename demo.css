@@ -83,7 +83,7 @@ input{
 }
 .line{
     display: inline-block;
-    width: 113px;
+    width: 127px;
     height: 10px;
     border-bottom:1px solid rgba(128, 128, 128, 0.219);
 }
