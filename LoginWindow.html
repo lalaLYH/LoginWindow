@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LoginWindow</title>
+    <link href="./demo.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+        <div class="window">
+            <div class="top">
+                <div class="title">登录</div>
+                <div class="close">
+                    <a href="#" target="_blank">
+                        <img src="./img/Close.ico" style="height: 12px;width: 12px;">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <form method="POST" action="save.php">
+                    <div>
+                        <label for="username">手机号 或 Email</label>
+                        <input type="text" name="username" placeholder="11位手机号 或 Email" />
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <label for="password">密码</label>
+                        <a href="#" target="_blank" class="LostPassword">忘记密码</a>
+                        <input type="password" name="password" placeholder="请输入密码" />
+                    </div>
+                    <a href="#" target="_blank" class="NumberLogin">手机验证码登录</a>
+                    <input class="login" type="submit" value="登录">
+                    <div class="line"></div>
+                    <div class="more">更多登录方式</div>
+                    <div class="line"></div>
+                    <div style="text-align: center;">
+                        <a href="#" target="_blank"><img src="./img/QQ.ico"></a>
+                        <a href="#" target="_blank"><img src="./img/WeChat.ico"></a>
+                        <a href="#" target="_blank"><img src="./img/Weibo.ico"></a>
+                        <a href="#" target="_blank"><img src="./img/Github.ico"></a>
+                        <a href="#" target="_blank"><img src="./img/Alipay.ico"></a>
+                        <a href="#" target="_blank"><img src="./img/Bilibili.ico"></a>
+                    </div>
+                    <input class="new" type="button" value="注册新账号">
+                    <div class="bottom">
+                        继续即表示你同意
+                        <a href="#" target="_blank" class="span">《服务条款》</a>
+                        和
+                        <a href="#" target="_blank" class="span">《隐私政策》</a>
+                    </div>
+                </form>
+            </div>
+            
+            
+        </div>
+
+    
+</body>
+</html>

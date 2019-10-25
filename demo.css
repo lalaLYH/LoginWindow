@@ -1,0 +1,110 @@
+body{
+    background-color: #66CCFF;
+}
+.window{
+    width: 600px;
+    height: 500px;
+    position:fixed;
+    top:0px;
+    right:0px;
+    left:0px;
+    bottom:0px;
+    margin: auto;
+    background: white;
+    border-radius:10px;
+}
+.top{
+    height:50px;
+    background-color: whitesmoke;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+}
+.close{
+    float: right;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+.title{
+    float: left;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 12px;
+    color: rgba(77, 77, 77, 0.911);
+    font-weight: bold;
+}
+form{
+    width: 360px;
+    margin: 25px auto;
+
+}
+label{
+    font-weight: bold;
+    line-height: 30px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    color: gray;
+    outline-style: none;
+    border:1px solid grey;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.LostPassword{
+    display: block;
+    float: right;
+    color: rgb(33, 187, 110);
+    text-decoration:none;
+}
+.NumberLogin{
+    display: block;
+    color: rgb(33, 187, 110);
+    text-decoration:none;
+    line-height: 50px;
+}
+.login{
+    display: inline-block;
+    background-color: rgb(31, 160, 56);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:3px;
+    height: 36px;
+    width: 360px;
+}
+.line{
+    display: inline-block;
+    width: 113px;
+    height: 10px;
+    border-bottom:1px solid rgba(128, 128, 128, 0.219);
+}
+.more{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    color: grey;
+}
+img{
+    height: 35px;
+    width: 35px;
+}
+.new{
+    background-color: white;
+    color: grey;
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    font-size: 10px;
+    height: 35px;
+    border-radius:3px;
+}
+.bottom{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.span{
+    color:rgb(31, 160, 56);
+    text-decoration:none;
+}
